@@ -1,0 +1,456 @@
+
+/* Navigation */
+
+.navbar-logo{
+    margin-left: 10px;
+    justify-self: start;
+    cursor: pointer;
+    justify-content: left;
+    text-align: left;
+}
+.logo-img{
+    width: 200px;
+    height: 150px;
+}
+.navbarItems{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 25px;
+    list-style: none;
+    text-align: center;
+    width: 1000px;
+    justify-content: end;
+}
+.nav-links{
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-links:hover{
+    color: rgb(1, 1, 104);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-button{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 23px;
+    width: 140px;
+    height: 55px;
+    border-color: rgb(0, 0, 126);
+    background-color: white;
+}
+.nav-button:hover{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 23px;
+    width: 140px;
+    height: 55px;
+    border-color: rgb(0, 0, 126);
+    background-color: rgb(2, 2, 90);
+    color: white;
+}
+
+/* Header */
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+.header-body{
+    padding-top: 50px;
+    display:flex;
+    width:100%;
+}
+.header-img{
+    width: 600px;
+    height: 450px;
+    margin: 25px;
+    align-content: right;
+    padding-left: 200px;
+}
+.header-para{
+    width: 400px;
+    padding-top: 120px;
+    padding-left: 220px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.header-b{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 190px;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+}
+.header-b-p{
+    font-size: 28px;
+    text-align: left;
+    padding-left: 190px;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+}
+
+/* Modal */
+
+.popup{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-contain{
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Cards */
+
+.card-topic{
+    background-color: white;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    float: left;
+    padding-left: 0px;
+}
+.topic{
+    text-align: left;
+    padding-left: 200px;
+}
+.body{
+    display: grid;
+}
+.card{
+    display: grid;
+    width: 400px;
+    overflow: hidden;
+    height: 450px;
+    padding: 0px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 20px;
+    position: relative;
+    background-color: white;
+    border-radius: 2px;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.250) !important;
+}
+.card-img{
+    padding-top: 15px;
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.card-container{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.card-t{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-p{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Login-part */
+
+.login{
+    background-color: rgb(165, 165, 165);
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 450px;
+}
+.field{
+    height: 30px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form-field{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.field-name{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.form-button{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 18px;
+    width: 240px;
+    height: 55px;
+    color: white;
+    border-color: rgb(0, 0, 126);
+    background-color: rgb(1, 9, 114);
+}
+.form-button:hover{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 18px;
+    width: 245px;
+    height: 60px;
+    color: white;
+    border-color: rgb(0, 0, 126);
+    background-color: rgb(1, 9, 114);
+}
+
+/* About-page */
+
+.about-head{
+    padding-top: 70px;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    height: 250px;
+    color: white;
+    overflow: 'hidden';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/j.png");
+}
+.about-para{
+    display:flex;
+    width:100%;
+    padding-top: 100px;
+}
+.aPara{
+    padding-left: 250px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.about-img1{
+    padding-left: 50px;
+}
+.about-para2{
+    display:flex;
+    width:100%;
+    padding-top: 50px;
+}
+.aPara2{
+    padding-left: 80px;
+    padding-top: 60px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.about-img2{
+    padding-left: 200px;
+    width: 600px;
+    height: 550px;
+}
+
+/* Footer */
+
+.footer{
+    padding-top: 100px;
+}
+.footer-line{
+    height: 130px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(#0a1c7e , #000000 ) ;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-contact{
+    height: 800px;
+    width: 100%;
+    display:flex;
+    width:100%;
+}
+.f1{
+    width:100%;
+    padding: 50px;
+    font-size: 25px;
+}
+.f2{
+    padding-top: 190px;
+    padding-right: 100px;
+    width:100%;
+    font-size: 25px;
+}
+.footer-img{
+    width: 500px;
+    height: 400px;
+}
+hr{
+    width: 100px;
+}
+.f-contact{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 200px;
+}
+.f-c{
+    margin: 10px;
+    text-decoration: none;
+}
+.u-line{
+    text-decoration: none;
+    color: black;
+}
+.f-end{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0!important;
+    padding-top: 20px;
+}
+.follow-img{
+    width: 50px;
+    height: 50px;
+}
+.f-follow{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 270px;
+}
+.f-follow2{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    
+}
+.f-f{
+    display: flex;
+}
+
+/* Products */
+
+.p-card{
+    display: grid;
+    width: 400px;
+    overflow: hidden;
+    height: 550px;
+    padding: 0px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 20px;
+    position: relative;
+    border-radius: 2px;
+}
+.p-card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.250) !important;
+}
+.p-card-img{
+    padding-top: 0px;
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.p-card-t{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-card-p{
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p-card-container{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.products{
+    padding-top: 70px;
+    display: flex;
+    padding-left: 180px;
+}
+.p-main-title{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 190px;
+    background-color: #06003d;
+}
+.p-main-para{
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 190px;
+    padding-bottom: 50px;
+    background-color: #06003d;
+}
+
+/* Careera */
+
+.open-v{
+    text-align: left;
+    font-size: 23px;
+    padding-left: 190px;
+    padding-top: 20px;
+}
+.career-descrip{
+    display: flex;
+}
+.career-para{
+    font-size: 25px;
+    margin: 80px;
+    padding-top: 100px;
+}
+.hiring-t{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+}
+.hiring-option{
+    font-size: 30px;
+}
