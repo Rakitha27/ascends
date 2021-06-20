@@ -7,10 +7,10 @@ class About extends Component {
     render(){
         return(
             <div className='main-career'>
-                <div className='p-main-title'>
+                <div className='career-bar'>
                     Be a part of Ascends
                 </div>
-                <div className='p-main-para'>We are on a journey to deliver products 
+                <div className='career-bar-p'>We are on a journey to deliver products 
                 that will make a difference and <div/>make tomorrow a safe and inclusive
                 place. If you like to be part of our<div/> growth story, we’d 
                 love to hear from you!
@@ -37,8 +37,11 @@ class About extends Component {
                 Database Administrator <hr/>
                 Software Engineer - Intern <hr/>
                 </div>
+                <div className='sendCV'>
+                    Send us your CV to : <a href="mailto:name@gmail.com" className="u-line">ascends@gmail.com</a> 
+                </div>
             </div>
-        );
+        ); 
     }
 }
 

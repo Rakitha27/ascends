@@ -20,7 +20,7 @@ class Footer extends Component {
                             <div className='f-contact'>
                             <div className='f-c'> <b>Mobile</b>&nbsp;&nbsp;:&nbsp; &nbsp;<a href="tel:+94777540000" className="u-line">+94 77 754 0000</a></div>
                             <div className='f-c'><b>Land</b> &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; &nbsp;<a href="tel: +94114572139" className="u-line">+94 11 457 2139</a></div>
-                            <div className='f-c'><b>Email </b>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="mailto:name@gmail.com" className="u-line">name@gmail.com</a></div>
+                            <div className='f-c'><b>Email </b>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; <a href="mailto:name@gmail.com" className="u-line">ascends@gmail.com</a></div>
                             <div className='f-c'><b>Address </b>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp; 22/1D Fifth Floor, Colombo 03 </div>
                             </div>
                         </div>

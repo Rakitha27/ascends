@@ -15,7 +15,7 @@ function NavBar() {
                     <li><Link to='/about' className='nav-links'>About</Link></li>
                     <li><Link to='/products' className='nav-links'>Products</Link></li>
                     <li><Link to='/careers' className='nav-links'>Careers</Link></li>
-                    <li><Link to='' className='nav-links' >Contact</Link></li>
+                    <li><Link to='/Contact' className='nav-links' >Contact</Link></li>
                 </ul>
                 <button className='nav-button'>Login</button>
             </header>
